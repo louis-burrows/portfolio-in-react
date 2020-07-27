@@ -9,8 +9,8 @@ class Routes extends Component {
     return ( 
       <Router>
         <Home path="/" />
-        <Bio path="Bio" />
-        <Contact path="Contact" />
+        <Bio path="bio" />
+        <Contact path="contact" />
       </Router>
      );
   }

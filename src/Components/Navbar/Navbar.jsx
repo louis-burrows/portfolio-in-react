@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import styles from "./Navbar.module.scss"
 
 
 class Navbar extends Component {
@@ -7,12 +8,16 @@ class Navbar extends Component {
   render() { 
     return ( 
       <>
-        <p>Navbar works</p>
-        <FontAwesomeIcon icon="bars"/>
-        <FontAwesomeIcon icon="home"/>
-        <FontAwesomeIcon icon="code"/>
-        <FontAwesomeIcon icon="leaf"/>
-        <FontAwesomeIcon icon="envelope"/>
+      <div className={styles.navBar}>
+        <p>Louis Burrows</p>
+        <div className={styles.iconCollection}>
+          <FontAwesomeIcon icon="bars" className={styles.icon}/>
+          <FontAwesomeIcon icon="code" className={styles.icon}/>
+          <FontAwesomeIcon icon="home" className={styles.icon}/>
+          <FontAwesomeIcon icon="leaf" className={styles.icon}/>
+          <FontAwesomeIcon icon="envelope" className={styles.icon}/>
+        </div>
+      </div>
       </>
      );
   }
