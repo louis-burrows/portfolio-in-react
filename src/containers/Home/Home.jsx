@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import styles from "./Home.module.scss"
 
 class Home extends Component {
   state = {  }
   render() { 
     return ( 
-      <p>Home page</p>
+      <h1 className={styles.homeTitle}>Welcome</h1>
      );
   }
 }
