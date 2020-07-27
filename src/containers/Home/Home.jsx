@@ -5,7 +5,10 @@ class Home extends Component {
   state = {  }
   render() { 
     return ( 
-      <h1 className={styles.homeTitle}>Welcome</h1>
+      <div>
+        <h1 className={styles.homeTitle}>Welcome</h1>
+      
+      </div>
      );
   }
 }
