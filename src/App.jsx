@@ -9,6 +9,7 @@ import { faHome, faCode, faLeaf, faBars, faEnvelope } from '@fortawesome/free-so
 import Routes from "./containers/Routes"
 import Navbar from "./Components/Navbar"
 
+
 library.add(faHome, faCode, faLeaf, faBars, faEnvelope);
 
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
       <>
         <Navbar />
         <Routes />
+        <div className={styles.footer}></div>
       </>
     );
   }
