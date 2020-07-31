@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import styles from "./FizzBuzz.module.scss"
+import styles from "./ProjectCard.module.scss"
 import { Link } from "@reach/router"
 
 
-class FizzBuzz extends Component {
+class ProjectCard extends Component {
 
   state = { 
     
@@ -15,12 +15,12 @@ class FizzBuzz extends Component {
   render() { 
     return ( 
       <>
-      <div className={styles.fizzBuzzContainer}>
-        Fizz-Buzz
+      <div className={styles.ProjectCardContainer}>
+        ProjectCard
       </div>
       </>
      );
   }
 }
  
-export default FizzBuzz;
+export default ProjectCard;
