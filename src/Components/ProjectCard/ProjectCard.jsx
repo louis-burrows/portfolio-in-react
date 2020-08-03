@@ -8,16 +8,34 @@ class ProjectCard extends Component {
 
   state = { 
     
-   }
+  }
+
+ 
 
 
-  
+ 
   render() { 
+
+ 
+    const {
+      title,
+      background,
+
+    } = this.props.project;
+
+    const backgroundCol = {
+      backgroundColor: background
+    }
+
     return ( 
       <>
-      <div className={styles.ProjectCardContainer}>
-        ProjectCard
+      <div className={styles.projectCardContainer} style={backgroundCol}>
+        {title}
+  
+        
+
       </div>
+
       </>
      );
   }
