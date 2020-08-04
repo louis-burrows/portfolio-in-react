@@ -1,6 +1,7 @@
 .codeContainer {
 
   margin-left: 5px;
+  position: absolute;
 
   .titleCode {  
       color: rgb(101, 75, 248);
@@ -9,11 +10,9 @@
       margin-bottom: 10px;
   }
 
-  div {
-    margin-bottom: 5px;
-    font-size: 18px;
-    font-weight: 700;
+  .projectCardDisplay {
+    display: flex;
+    flex-wrap: wrap;
   }
-
 
 }
