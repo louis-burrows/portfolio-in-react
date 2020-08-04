@@ -20,6 +20,10 @@ class ProjectCard extends Component {
     const {
       title,
       background,
+      githublink,
+      outputlink,
+      description,
+      techstack,
 
     } = this.props.project;
 
@@ -31,6 +35,10 @@ class ProjectCard extends Component {
       <>
       <div className={styles.projectCardContainer} style={backgroundCol}>
         {title}
+      <p className={styles.cardParagraph}>{description}</p>
+      <p className={styles.cardParagraph}>{techstack}</p>
+      <a className={styles.cardLink} href={githublink}>Github</a>
+      <a className={styles.cardLink} href={outputlink}>Demo</a>
   
         
 

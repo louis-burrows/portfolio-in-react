@@ -16,11 +16,11 @@ class App extends Component {
   state = {  }
   render() { 
     return (  
-      <>
-        <Navbar />
+      <div className={styles.appContainer}>
+        <Navbar className={styles.navDisplay}/>
         <Routes />
-        <div className={styles.footer}></div>
-      </>
+        
+      </div>
     );
   }
 }
