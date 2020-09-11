@@ -28,7 +28,7 @@ const projects = [
     description: "Call an API with the name of a movie to find information about it.",
     techstack: "React, SCSS, Firebase",
     githublink: "https://github.com/louis-burrows/movie-db",
-    outputlink: "",
+    outputlink: "https://findmoviedata.web.app/",
     background: "#ffb5c2"
   },
   {

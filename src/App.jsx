@@ -19,6 +19,9 @@ class App extends Component {
       <div className={styles.appContainer}>
         <Navbar className={styles.navDisplay}/>
         <Routes />
+
+        <div className={styles.bg}></div>
+       
         
       </div>
     );
