@@ -7,6 +7,7 @@ class Home extends Component {
     return ( 
       <div>
         <h1 className={styles.homeTitle}>Welcome</h1>
+        <button className={styles.circle}></button>
       
       </div>
      );

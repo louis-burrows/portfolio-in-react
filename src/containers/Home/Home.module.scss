@@ -2,7 +2,29 @@
   color: rgb(101, 75, 248);
   margin-top: 20px;
   margin-left: 5px;
-  font-size: 40px;
-  
+  font-size: 40px;  
 }
 
+
+.circle {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: rgb(245, 252, 252);
+  border: 1px grey solid;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1.5s ease-in-out infinite alternate;
+  animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 5px rgb(118, 241, 174);
+  }
+  to {
+    box-shadow: 0 0 40px #0dfa70;
+  }
+}

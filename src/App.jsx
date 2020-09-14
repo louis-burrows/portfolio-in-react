@@ -18,9 +18,9 @@ class App extends Component {
     return (  
       <div className={styles.appContainer}>
         <Navbar className={styles.navDisplay}/>
-        <Routes />
+        <Routes className={styles.routes}/>
+        {/* <div className={styles.bg}></div> */}
 
-        <div className={styles.bg}></div>
        
         
       </div>
