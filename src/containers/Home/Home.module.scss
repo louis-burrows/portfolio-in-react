@@ -13,12 +13,20 @@
   background-color: rgb(245, 252, 252);
   border: 1px grey solid;
   position: absolute;
-  bottom: 20px;
-  right: 20px;
+  bottom: 40px;
+  right: 40px;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1.5s ease-in-out infinite alternate;
   animation: glow 1.5s ease-in-out infinite alternate;
+  transition: transform 2s;
+  outline: none;
+
+  
+  &.openCircle {
+    transform: scale(6) translate(-30px, -30px);
+  }
 }
+
 
 @keyframes glow {
   from {
