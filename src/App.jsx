@@ -15,15 +15,12 @@ library.add(faHome, faCode, faLeaf, faBars, faEnvelope);
 class App extends Component {
   state = {  }
   render() { 
-    return (  
-      <div className={styles.appContainer}>
+    return ( 
+      <span>
+      <div className={styles.appContainer}></div>
         <Navbar className={styles.navDisplay}/>
         <Routes className={styles.routes}/>
-        {/* <div className={styles.bg}></div> */}
-
-       
-        
-      </div>
+      </span> 
     );
   }
 }

@@ -1,7 +1,7 @@
 .bioTitle {
-  color: rgb(101, 75, 248);
+  color: rgb(252, 252, 252);
   margin-top: 20px;
-  margin-left: 5px;
+  margin-left: 10px;
   font-size: 28px;
   
 }
@@ -9,19 +9,35 @@
 
 span {
 
-  .intro {
-    margin: 15px
-  }
-
   button {
     margin-left: 15px;
   }
 
   h2 {
-  color: rgb(101, 75, 248);
+  color: rgb(255, 255, 255);
   margin-top: 20px;
   margin-left: 5px;
   font-size: 20px;
   }
   
+}
+
+.slow {
+  margin: 15px;
+  display: inline-block;
+  vertical-align: bottom;
+  max-width: 350px;
+  overflow: hidden;
+  animation: slow 7s ease forwards;
+}
+
+@keyframes slow {
+  from {
+    max-width: 0px;
+    max-height: 0px;
+  }
+  to {
+    max-width: 350px;
+    max-height: 300px;
+  }
 }
