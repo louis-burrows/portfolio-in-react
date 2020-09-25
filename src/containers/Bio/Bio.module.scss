@@ -1,43 +1,43 @@
-.bioTitle {
-  color: rgb(252, 252, 252);
-  margin-top: 20px;
-  margin-left: 10px;
-  font-size: 28px;
+
+
+.bioContainer {
   
-}
-
-
-span {
-
-  button {
-    margin-left: 15px;
+  .bioTitle {
+    color: rgb(252, 252, 252);
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 28px;
+    
   }
 
-  h2 {
-  color: rgb(255, 255, 255);
-  margin-top: 20px;
-  margin-left: 5px;
-  font-size: 20px;
-  }
-  
-}
+  p {
+    border: 3px white solid;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
 
-.slow {
-  margin: 15px;
-  display: inline-block;
-  vertical-align: bottom;
-  max-width: 350px;
-  overflow: hidden;
-  animation: slow 7s ease forwards;
-}
-
-@keyframes slow {
-  from {
-    max-width: 0px;
-    max-height: 0px;
   }
-  to {
+
+  .slow {
+    display: inline-block;
+    vertical-align: bottom;
     max-width: 350px;
-    max-height: 300px;
+    overflow: hidden;
+    animation: slow 2.5s ease forwards;
   }
+  
+  @keyframes slow {
+    from {
+      max-width: 0px;
+      max-height: 0px;
+    }
+    to {
+      max-width: 80%;
+      max-height: 200px;
+    }
+  }
+  
+  
 }
+

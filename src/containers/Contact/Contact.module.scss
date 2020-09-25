@@ -1,19 +1,27 @@
 .contactPage {
-  padding: 5px;
-  max-width: 100vw;
-  word-wrap: break-word;
 
-  h2 {
-    color: rgb(101, 75, 248);
+  .contactTitle {
+    color: rgb(252, 252, 252);
     margin-top: 20px;
+    margin-left: 10px;
     font-size: 28px;
-    margin-bottom: 10px;
   }
 
-  .title {
-    color: rgb(101, 75, 248);
-    margin-top: 10px;
+  .contactParagraph {
+    color: white;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-left: 10px;
+    animation: fadein 0.5s;
+    font-size: 18px;
   }
+
+  @keyframes fadein {
+    from { opacity: 0; font-size: 10px;}
+    to   { opacity: 1; font-size: 18px;}
+}
+
+
+}
 
    
-}
