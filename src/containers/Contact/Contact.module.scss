@@ -7,19 +7,21 @@
     font-size: 28px;
   }
 
-  .contactParagraph {
+  .contactLink {
     color: white;
-    margin-top: 5px;
-    margin-left: 10px;
-    margin-left: 10px;
-    animation: fadein 0.5s;
-    font-size: 18px;
+    margin: 10px 10px 10px 20px;
+    animation: fadein 0.7s;
+    font-size: 40px;
   }
 
   @keyframes fadein {
     from { opacity: 0; font-size: 10px;}
-    to   { opacity: 1; font-size: 18px;}
-}
+    to   { opacity: 1; font-size: 40px;}
+  }
+
+  .iconContact {
+    color: white;
+  }
 
 
 }

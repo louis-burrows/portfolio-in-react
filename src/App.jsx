@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import styles from './App.module.scss';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faHome, faCode, faLeaf, faBars, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 
@@ -10,7 +11,7 @@ import Routes from "./containers/Routes"
 import Navbar from "./Components/Navbar"
 
 
-library.add(faHome, faCode, faLeaf, faBars, faEnvelope);
+library.add(fab, faHome, faCode, faLeaf, faBars, faEnvelope);
 
 class App extends Component {
   state = {  }

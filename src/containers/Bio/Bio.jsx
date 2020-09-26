@@ -18,7 +18,7 @@ class Bio extends Component {
           Biography        
         </h1>
         <p className={styles.slow}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae dolores quaerat quidem ad, pariatur earum modi alias! Facilis hic optio saepe excepturi quam laudantium repellendus aperiam inventore laboriosam neque!</p>
-        
+                
        
       </div>
      );
