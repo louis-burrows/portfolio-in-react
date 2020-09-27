@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import styles from './Routes.module.scss';
 import { Router } from "@reach/router"
 import Home from "../Home"
 import Bio from "../Bio"
@@ -8,7 +9,7 @@ import Code from "../Code"
 class Routes extends Component {
   render() { 
     return ( 
-      <Router>
+      <Router className={styles.routes}>
         <Home path="/" />
         <Bio path="bio" />
         <Contact path="contact" />

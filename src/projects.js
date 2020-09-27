@@ -5,7 +5,7 @@ const projects = [
     techstack: "HTML, JavaScript",
     githublink: "https://github.com/louis-burrows/fizzbuzz",
     outputlink: "https://louis-burrows.github.io/fizzbuzz/",
-    background: "#ffbe86"
+    background: "rgb(239, 239, 250, 0.3)"
   },
   {
     title: "Find The Treasure Game",
@@ -13,7 +13,7 @@ const projects = [
     techstack: "HTML, CSS, JavaScript",
     githublink: "https://github.com/louis-burrows/First-Game",
     outputlink: "https://louis-burrows.github.io/First-Game/",
-    background: "#ffe156"
+    background: "rgb(239, 239, 250, 0.3)"
   },
   {
     title: "Alien Invasion Game",
@@ -21,7 +21,7 @@ const projects = [
     techstack: "HTML, CSS, JavaScript",
     githublink: "",
     outputlink: "",
-    background: "#ffe9ce"
+    background: "rgb(239, 239, 250, 0.3)"
   },
   {
     title: "Movie Database",
@@ -29,7 +29,7 @@ const projects = [
     techstack: "React, SCSS, Firebase",
     githublink: "https://github.com/louis-burrows/movie-db",
     outputlink: "https://findmoviedata.web.app/",
-    background: "#ffb5c2"
+    background: "rgb(239, 239, 250, 0.3)"
   },
   {
     title: "Client Project Ewe4You",
@@ -37,7 +37,7 @@ const projects = [
     techstack: "React, SCSS, Firebase",
     githublink: "https://github.com/nology-tech/ewe4you",
     outputlink: "https://ewe4you.nology.io/",
-    background: "#3777ff"
+    background: "rgb(239, 239, 250, 0.3)"
   },
   {
     title: "Building An API",
@@ -45,7 +45,7 @@ const projects = [
     techstack: "Node",
     githublink: "",
     outputlink: "",
-    background: "#ffe156"
+    background: "rgb(239, 239, 250, 0.3)"
   }
 ]
 

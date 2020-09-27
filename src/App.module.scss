@@ -8,10 +8,10 @@
     box-sizing: border-box;
     height: 100vh;
     width: 150vw;
-    animation:slide 4s ease-in-out infinite alternate;
+    animation:slide 3.5s ease-in-out infinite alternate;
     background-image: linear-gradient(-60deg, rgba(97, 104, 211, 0.226) 50%, rgb(6, 183, 196) 90%);
     opacity:.9;
-    position:fixed;
+    position: fixed;
     left: -15%;
     top:0;
     z-index:-1;
@@ -27,7 +27,11 @@
 
 
     .navDisplay {
-      position: sticky; 
+    
+    }
+
+    .routes {
+     
     }
   }
 }

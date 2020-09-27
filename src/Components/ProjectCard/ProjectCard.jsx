@@ -11,9 +11,6 @@ class ProjectCard extends Component {
   }
 
  
-
-
- 
   render() { 
 
  
@@ -32,7 +29,7 @@ class ProjectCard extends Component {
     }
 
     return ( 
-      <>
+      
       <div className={styles.projectCardContainer} style={backgroundCol}>
         {title}
       <p className={styles.cardParagraph}>{description}</p>
@@ -41,11 +38,10 @@ class ProjectCard extends Component {
       <a className={styles.cardLink1} href={githublink}>Github</a>
       <a className={styles.cardLink2} href={outputlink}>Demo</a>
       
-        
-
       </div>
+      
 
-      </>
+      
      );
   }
 }
