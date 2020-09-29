@@ -1,7 +1,38 @@
-.homeTitle {
+.homeContainer {
+
+  min-height: 90vh;
+  position: relative;
+
+  .homeTitle {
   color: rgb(255, 255, 255);
   margin-top: 20px;
   margin-left: 10px;
   font-size: 40px;  
+  
+  }
+
+  .image1 {
+    position: absolute;
+    bottom: 0px;
+    width: 50px;
+  }
+
+  .image2 {
+    position: absolute;
+    top: 200px;
+    width: 400px;
+    height: auto;
+  }
+
+  .image3 {
+    position: absolute;
+    top: 280px;
+  }
+
+  .image4 {
+    position: absolute;
+    top: 320px;
+  }
+
 }
 
