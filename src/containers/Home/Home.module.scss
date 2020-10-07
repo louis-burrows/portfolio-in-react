@@ -118,3 +118,40 @@
   
 }
 
+@media only screen and (min-width: 1290px) {
+  
+  .homeContainer{
+    
+    .fades {
+      .homeTitle {
+      font-size: 55px;
+      }
+      .growButton {
+        display: inline;
+      }
+    }
+   
+    .slide1 {
+      left: -150px;
+      .image1 {
+        min-height: 500px;
+      }
+    }
+
+    .slide2 {
+      bottom: 200px;
+      .image2 {
+        min-height: 520px;
+      }
+    }
+
+    .slide3 {
+      bottom: 340px;
+      .image3 {
+        min-height: 460px;
+      }
+    }
+  }
+}
+
+
