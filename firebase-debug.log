@@ -1,0 +1,44 @@
+[debug] [2020-10-07T11:52:31.582Z] ----------------------------------------------------------------------
+[debug] [2020-10-07T11:52:31.586Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\louis\AppData\Local\Yarn\Data\global\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2020-10-07T11:52:31.586Z] CLI Version:   8.6.0
+[debug] [2020-10-07T11:52:31.586Z] Platform:      win32
+[debug] [2020-10-07T11:52:31.587Z] Node Version:  v12.17.0
+[debug] [2020-10-07T11:52:31.588Z] Time:          Wed Oct 07 2020 12:52:31 GMT+0100 (British Summer Time)
+[debug] [2020-10-07T11:52:31.588Z] ----------------------------------------------------------------------
+[debug] [2020-10-07T11:52:31.588Z] 
+[debug] [2020-10-07T11:52:31.619Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-07T11:52:31.620Z] > authorizing via signed-in user
+[debug] [2020-10-07T11:52:31.620Z] [iam] checking project louisonline for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-10-07T11:52:31.622Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-10-07T11:52:31.623Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-10-07T11:52:42.738Z] [iam] error while checking permissions, command may fail: FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2020-10-07T11:52:42.742Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-10-07T11:52:42.742Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-10-07T11:52:53.852Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2020-10-07T11:52:57.829Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at Object.<anonymous> (C:\Users\louis\AppData\Local\Yarn\Data\global\node_modules\firebase-tools\lib\auth.js:23:32)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\louis\AppData\Local\Yarn\Data\global\node_modules\firebase-tools\lib\commands\login.js:20:14)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at loadCommand (C:\Users\louis\AppData\Local\Yarn\Data\global\node_modules\firebase-tools\lib\commands\index.js:5:19)
+    at module.exports (C:\Users\louis\AppData\Local\Yarn\Data\global\node_modules\firebase-tools\lib\commands\index.js:89:20)
+[error] 
+[error] Error: Failed to get Firebase project louisonline. Please make sure the project exists and your account has permission to access it.
