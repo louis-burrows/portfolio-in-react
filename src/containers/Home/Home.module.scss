@@ -12,8 +12,9 @@
       }
       .growButton {
         position: absolute;
+        font-size: 16px;
         right: 15px;
-        top: 28px;
+        top: 26px;
         display: none;
         height: 30px;
         width: 70px;
@@ -24,7 +25,9 @@
         -moz-animation: glow 1.2s ease-in-out infinite alternate;
         animation: glow 1.2s ease-in-out infinite alternate;
         outline: none;
-        :hover {
+        font-weight: 700;
+        color: rgb(177, 175, 175);
+        &:hover {
           cursor: pointer;
         }
       }
@@ -93,21 +96,21 @@
     .slide1 {
       left: -150px;
       .image1 {
-    min-height: 480px;
-    }
+        min-height: 480px;
+      }
   }
 
     .slide2 {
       bottom: 120px;
       .image2 {
-        min-height: 560px;
+        min-height: 460px;
       }
     }
 
     .slide3 {
-      bottom: 280px;
+      bottom: 180px;
       .image3 {
-        min-height: 460px;
+        min-height: 360px;
       }
     }
 
