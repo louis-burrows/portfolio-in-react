@@ -20,7 +20,7 @@ class Home extends Component {
 
         <Fade delay={3000} duration={2000} className={styles.fades}>  
           <h1 className={styles.homeTitle}>Welcome</h1>
-          <button className={styles.growButton}>grow</button>
+          <button className={styles.growButton}>GROW</button>
         </Fade>
 
         <Slide triggerOnce delay={2000} duration={1500} className={styles.slide1}>

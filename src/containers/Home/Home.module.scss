@@ -11,10 +11,32 @@
       font-size: 40px; 
       }
       .growButton {
+        position: absolute;
+        right: 15px;
+        top: 28px;
         display: none;
-        
+        height: 30px;
+        width: 70px;
+        border-radius: 10px;
+        background-color: white;
+        border: none;
+        -webkit-animation: glow 1.2s ease-in-out infinite alternate;
+        -moz-animation: glow 1.2s ease-in-out infinite alternate;
+        animation: glow 1.2s ease-in-out infinite alternate;
+        outline: none;
+        :hover {
+          cursor: pointer;
+        }
       }
 
+      @keyframes glow {
+        from {
+          box-shadow: 0 0 5px rgb(186, 235, 255);
+        }
+        to {
+          box-shadow: 0 0 30px #45f6fc;
+        }
+      }
   }
   
 
@@ -64,9 +86,6 @@
       }
       .growButton {
         display: inline;
-        position: absolute;
-        right: 30px;
-        top: 30px;
       }
     }
    
