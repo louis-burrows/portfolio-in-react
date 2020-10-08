@@ -9,8 +9,10 @@ import { Slide, Fade } from "react-awesome-reveal";
 
 class Home extends Component {
   state = {
-    
+      circleIsExpanded: false,
   };
+  
+  
 
 
   render() { 
