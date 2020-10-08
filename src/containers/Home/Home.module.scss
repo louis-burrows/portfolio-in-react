@@ -27,8 +27,12 @@
         outline: none;
         font-weight: 700;
         color: rgb(177, 175, 175);
+        transition: opacity 2s;
         &:hover {
           cursor: pointer;
+        }
+        &.buttonVanish {
+          opacity: 0;
         }
       }
 
@@ -44,16 +48,16 @@
   
 
   
-  // .slide1 {
-  //   bottom: -10px;
-  //   left: -90px;
-  //   position: fixed;
-  //   z-index: 1;
+  .slide1 {
+    bottom: -10px;
+    left: -90px;
+    position: fixed;
+    z-index: 1;
 
-  //   .image1 {
-  //     height: 300px;
-  //   }
-  // }
+    .image1 {
+      height: 300px;
+    }
+  }
 
   // .slide2 {
   //   bottom: 70px;
