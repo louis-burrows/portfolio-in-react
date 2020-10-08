@@ -11,13 +11,13 @@
       font-size: 40px; 
       }
       .growButton {
-        position: absolute;
-        font-size: 16px;
+        position: fixed;
+        font-size: 14px;
         right: 15px;
-        top: 26px;
+        bottom: 20px;
         display: none;
         height: 30px;
-        width: 70px;
+        width: 132px;
         border-radius: 10px;
         background-color: white;
         border: none;
@@ -44,36 +44,36 @@
   
 
   
-  .slide1 {
-    bottom: -10px;
-    left: -90px;
-    position: fixed;
-    z-index: 1;
+  // .slide1 {
+  //   bottom: -10px;
+  //   left: -90px;
+  //   position: fixed;
+  //   z-index: 1;
 
-    .image1 {
-      height: 300px;
-    }
-  }
+  //   .image1 {
+  //     height: 300px;
+  //   }
+  // }
 
-  .slide2 {
-    bottom: 70px;
-    position: fixed;
-    z-index: 2;
+  // .slide2 {
+  //   bottom: 70px;
+  //   position: fixed;
+  //   z-index: 2;
 
-    .image2 {
-      height: 400px;
-    }
-  }
+  //   .image2 {
+  //     height: 400px;
+  //   }
+  // }
 
-  .slide3 {
-    bottom: 150px;
-    position: fixed;
-    z-index: 3;
+  // .slide3 {
+  //   bottom: -10px;
+  //   position: fixed;
+  //   z-index: 3;
     
-    .image3 {
-      height: 250px;
-    }
-  }
+  //   .image3 {
+  //     height: 250px;
+  //   }
+  // }
 
 }
 
@@ -93,26 +93,26 @@
     }
    
 
-    .slide1 {
-      left: -150px;
-      .image1 {
-        min-height: 480px;
-      }
-  }
+  //   .slide1 {
+  //     left: -150px;
+  //     .image1 {
+  //       min-height: 480px;
+  //     }
+  // }
 
-    .slide2 {
-      bottom: 120px;
-      .image2 {
-        min-height: 460px;
-      }
-    }
+  //   .slide2 {
+  //     bottom: 120px;
+  //     .image2 {
+  //       min-height: 460px;
+  //     }
+  //   }
 
-    .slide3 {
-      bottom: 180px;
-      .image3 {
-        min-height: 360px;
-      }
-    }
+    // .slide3 {
+    //   bottom: -10px;
+    //   .image3 {
+    //     min-height: 460px;
+    //   }
+    // }
 
   }
   
@@ -131,26 +131,26 @@
       }
     }
    
-    .slide1 {
-      left: -150px;
-      .image1 {
-        min-height: 500px;
-      }
-    }
+    // .slide1 {
+    //   left: -150px;
+    //   .image1 {
+    //     min-height: 500px;
+    //   }
+    // }
 
-    .slide2 {
-      bottom: 200px;
-      .image2 {
-        min-height: 520px;
-      }
-    }
+    // .slide2 {
+    //   bottom: 200px;
+    //   .image2 {
+    //     min-height: 520px;
+    //   }
+    // }
 
-    .slide3 {
-      bottom: 340px;
-      .image3 {
-        min-height: 460px;
-      }
-    }
+    // .slide3 {
+    //   bottom: -10px;
+    //   .image3 {
+    //     min-height: 560px;
+    //   }
+    // }
   }
 }
 

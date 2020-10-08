@@ -18,22 +18,22 @@ class Home extends Component {
     return ( 
       <div className={styles.homeContainer}>
 
-        <Fade delay={3000} duration={2000} className={styles.fades}>  
+        <Fade delay={1000} duration={2000} className={styles.fades}>  
           <h1 className={styles.homeTitle}>Welcome</h1>
-          <button className={styles.growButton}>GROW</button>
+          <button className={styles.growButton}>Make things grow</button>
         </Fade>
 
-        <Slide triggerOnce delay={2000} duration={1500} className={styles.slide1}>
+        {/* <Slide triggerOnce delay={2000} duration={1500} className={styles.slide1}>
           <img src={image1} alt="1" className={styles.image1}/>
         </Slide>
  
         <Slide triggerOnce delay={2600} duration={1500} className={styles.slide2}>
           <img src={image2} alt="2" className={styles.image2}/>
-        </Slide> 
-        
-        <Slide triggerOnce delay={3200} duration={1500} className={styles.slide3}>
+        </Slide>   
+
+        <Slide triggerOnce delay={1500} duration={1500} direction={"right"} className={styles.slide3}>
           <img src={image3} alt="3" className={styles.image3}/>
-        </Slide>
+        </Slide> */}
         
        
       

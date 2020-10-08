@@ -35,8 +35,8 @@ class ProjectCard extends Component {
       <p className={styles.cardParagraph}>{description}</p>
       <p className={styles.cardParagraph}>{techstack}</p>
       
-      <a className={styles.cardLink1} href={githublink}>Github</a>
-      <a className={styles.cardLink2} href={outputlink}>Demo</a>
+      <a className={styles.cardLink1} href={githublink} target="_blank" rel="noopener noreferrer">Github</a>
+      <a className={styles.cardLink2} href={outputlink} target="_blank" rel="noopener noreferrer">Demo</a>
       
       </div>
       
