@@ -15,7 +15,6 @@
         font-size: 14px;
         right: 15px;
         bottom: 20px;
-        display: none;
         height: 30px;
         width: 132px;
         border-radius: 10px;
@@ -47,16 +46,48 @@
   }
   
 
-  
+  .plant1 {
+    display: none;
+  }
   .slide1 {
+    display: inline;
     bottom: -10px;
     left: -90px;
     position: fixed;
     z-index: 1;
+  }
+  .image1 {      
+    height: 200px;
+  }
 
-    .image1 {
-      height: 300px;
-    }
+  
+  .plant2 {
+    display: none;
+  }
+  .slide2 {
+    display: inline;
+    bottom: 80px;
+    left: 0px;
+    position: fixed;
+    z-index: 1;
+  }
+  .image2 {      
+    height: 300px;
+  }
+
+  
+  .plant3 {
+    display: none;
+  }
+  .slide3 {
+    display: inline;
+    bottom: 150px;
+    left: 0px;
+    position: fixed;
+    z-index: 1;
+  }
+  .image3 {      
+    height: 200px;
   }
 
   // .slide2 {
@@ -91,9 +122,7 @@
        .homeTitle {
       font-size: 55px;
       }
-      .growButton {
-        display: inline;
-      }
+    
     }
    
 
@@ -129,9 +158,6 @@
     .fades {
       .homeTitle {
       font-size: 55px;
-      }
-      .growButton {
-        display: inline;
       }
     }
    

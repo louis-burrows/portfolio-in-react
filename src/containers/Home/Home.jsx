@@ -11,11 +11,15 @@ class Home extends Component {
   state = {
       circleIsExpanded: false,
       image1Shows: false,
+      image2Shows: false,
+      image3Shows: false,
   };
   
   expandCircle = () => {
     this.setState({ circleIsExpanded: !this.state.circleIsExpanded });
     this.setState({ image1Shows: !this.state.image1Shows });
+    this.setState({ image2Shows: !this.state.image2Shows });
+    this.setState({ image3Shows: !this.state.image3Shows });
   };
 
 
@@ -25,29 +29,33 @@ class Home extends Component {
 
     const showImage1 = this.state.image1Shows ? styles.slide1 : "";
 
+    const showImage2 = this.state.image1Shows ? styles.slide2 : "";
+
+    const showImage3 = this.state.image1Shows ? styles.slide3 : "";
+
 
     return ( 
       <div className={styles.homeContainer}>
 
-        <Fade delay={1000} duration={2000} className={styles.fades}>  
+        <Fade delay={1500} duration={2000} className={styles.fades}>  
           <h1 className={styles.homeTitle}>Welcome</h1>
           <button className={`${styles.growButton} ${flipStyles}`} onClick={() => this.expandCircle()}>
             Make things grow
           </button>
         </Fade>
 
-         <Slide triggerOnce delay={200} duration={1500} className={showImage1}>
+         <Slide triggerOnce delay={1000} duration={2000} className={`${showImage1} ${styles.plant1}`}>
           <img src={image1} alt="1" className={styles.image1}/>
         </Slide>
         
-        {/*
-        <Slide triggerOnce delay={2600} duration={1500} className={styles.slide2}>
+        
+        <Slide triggerOnce delay={1600} duration={2000} className={`${showImage2} ${styles.plant2}`}>
           <img src={image2} alt="2" className={styles.image2}/>
         </Slide>   
 
-        <Slide triggerOnce delay={1500} duration={1500} direction={"right"} className={styles.slide3}>
+        <Slide triggerOnce delay={2200} duration={2000} className={`${showImage3} ${styles.plant3}`}>
           <img src={image3} alt="3" className={styles.image3}/>
-        </Slide> */}
+        </Slide>
         
        
       

@@ -1,0 +1,31 @@
+[debug] [2020-10-09T14:52:42.724Z] ----------------------------------------------------------------------
+[debug] [2020-10-09T14:52:42.726Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\louis\AppData\Local\Yarn\Data\global\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2020-10-09T14:52:42.726Z] CLI Version:   8.6.0
+[debug] [2020-10-09T14:52:42.726Z] Platform:      win32
+[debug] [2020-10-09T14:52:42.726Z] Node Version:  v12.17.0
+[debug] [2020-10-09T14:52:42.728Z] Time:          Fri Oct 09 2020 15:52:42 GMT+0100 (British Summer Time)
+[debug] [2020-10-09T14:52:42.728Z] ----------------------------------------------------------------------
+[debug] [2020-10-09T14:52:42.729Z] 
+[debug] [2020-10-09T14:52:42.740Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-09T14:52:42.740Z] > authorizing via signed-in user
+[debug] [2020-10-09T14:52:42.741Z] [iam] checking project louisonline for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-10-09T14:52:42.745Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-10-09T14:52:42.745Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-10-09T14:52:51.255Z] <<< HTTP RESPONSE 200 {"date":"Fri, 09 Oct 2020 14:52:50 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-10-09T14:52:51.265Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/louisonline:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-10-09T14:52:54.557Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 09 Oct 2020 14:52:53 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=568","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-10-09T14:52:54.564Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/louisonline  
+ 
+[debug] [2020-10-09T14:52:56.644Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 09 Oct 2020 14:52:56 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'louisonline'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2020-10-09T14:52:56.690Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/louisonline/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2020-10-09T14:53:21.777Z] Error: connect ETIMEDOUT 216.58.212.234:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 216.58.212.234:443
