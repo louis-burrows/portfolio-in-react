@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+
 import styles from "./Home.module.scss"
 import image1 from "../../images/1.png"
 import image2 from "../../images/2.png"
 import image3 from "../../images/3.png"
+import flowerButton from "../../images/flower-button.png"
 
 import { Slide, Fade } from "react-awesome-reveal";
+
 
 
 class Home extends Component {
@@ -40,7 +43,7 @@ class Home extends Component {
         <Fade delay={1500} duration={2000} className={styles.fades}>  
           <h1 className={styles.homeTitle}>Welcome</h1>
           <button className={`${styles.growButton} ${flipStyles}`} onClick={() => this.expandCircle()}>
-            Make things grow
+            <img src={flowerButton} alt="flower button" className={styles.flowerButton}/>
           </button>
         </Fade>
 
