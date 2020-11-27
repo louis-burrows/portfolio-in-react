@@ -2,11 +2,29 @@
   
 
   .titleCode {  
-      color: rgb(255, 255, 255);
-      margin-top: 10px;
-      font-size: 28px;
-      margin-left: 10px;
-      padding-top: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    font-size: 28px;
+    margin-left: 10px;
+    padding-top: 20px;
+  }
+
+  .skillsList {
+    border: rgb(255, 235, 235) 3px solid;
+    background-color: rgba(239, 239, 250, 0.3);
+    max-width: 200px;
+    min-height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 700; 
+    color: white; 
+    .arrowIcon {
+      vertical-align: bottom;
+      font-size: 22px;
+    }
   }
 
   .projectCardDisplay {

@@ -31,13 +31,13 @@ class Bio extends Component {
         <p className={styles.slow3}>What fascinates me at present is the connection between form and function, and the subtle UI and UX design considerations orchestrated throughout websites and applications to make them both appealing and responsive to the user.</p>
 
         <h1 className={`${styles.bioTitle} ${styles.popOut} ${changePopout}`} onClick={() => this.openPopout()}>
-          Hobbies and Interests <FontAwesomeIcon icon={['fas', 'angle-double-right']} />
+          Hobbies and Interests <FontAwesomeIcon icon={['fas', 'angle-double-right']} className={styles.arrowIcon}/>
           <div>
-            <p className={styles.interestParagraph}>Gardening</p>
+            <p className={styles.interestParagraph}>Green Spaces and Urban Farming</p>
             <p className={styles.interestParagraph}>Perfumery</p>
             <p className={styles.interestParagraph}>Travel</p>
             <p className={styles.interestParagraph}>Mycology</p>
-            <p className={styles.interestParagraph}>Art</p>
+            <p className={styles.interestParagraph}>Art and Design</p>
           </div>
         </h1>
 
