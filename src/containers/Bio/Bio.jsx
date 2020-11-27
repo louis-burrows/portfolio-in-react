@@ -34,7 +34,7 @@ class Bio extends Component {
           Hobbies and Interests <FontAwesomeIcon icon={['fas', 'angle-double-right']} />
           <div>
             <p className={styles.interestParagraph}>Gardening</p>
-            <p className={styles.interestParagraph}>Fragrances and Perfumery</p>
+            <p className={styles.interestParagraph}>Perfumery</p>
             <p className={styles.interestParagraph}>Travel</p>
             <p className={styles.interestParagraph}>Mycology</p>
             <p className={styles.interestParagraph}>Art</p>

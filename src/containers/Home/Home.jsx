@@ -40,14 +40,14 @@ class Home extends Component {
     return ( 
       <div className={styles.homeContainer}>
 
-        <Fade delay={1500} duration={2000} className={styles.fades}>  
+        <Fade delay={500} duration={2000} className={styles.fades}>  
           <h1 className={styles.homeTitle}>Welcome</h1>
-          <button className={`${styles.growButton} ${flipStyles}`} onClick={() => this.expandCircle()}>
+          {/* <button className={`${styles.growButton} ${flipStyles}`} onClick={() => this.expandCircle()}>
             <img src={flowerButton} alt="flower button" className={styles.flowerButton}/>
-          </button>
+          </button> */}
         </Fade>
 
-         <Slide triggerOnce delay={1000} duration={2000} className={`${showImage1} ${styles.plant1}`}>
+         {/* <Slide triggerOnce delay={1000} duration={2000} className={`${showImage1} ${styles.plant1}`}>
           <img src={image1} alt="1" className={styles.image1}/>
         </Slide>
         
@@ -58,7 +58,7 @@ class Home extends Component {
 
         <Slide triggerOnce delay={2200} duration={2000} className={`${showImage3} ${styles.plant3}`}>
           <img src={image3} alt="3" className={styles.image3}/>
-        </Slide>
+        </Slide> */}
         
        
       
