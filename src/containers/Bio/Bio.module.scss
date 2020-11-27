@@ -7,6 +7,12 @@
     margin-top: 20px;
     margin-left: 10px;
     font-size: 28px;
+    div {
+      .interestParagraph {
+        border-radius: 7px;
+        color: rgb(136, 136, 136);
+      }
+    }
   }
 
   .popOut {
@@ -15,7 +21,14 @@
     padding: 10px;
     width: 90%;
     background-color: rgba(255, 255, 255, 0.3);
-
+    max-height: 40px;
+    overflow: hidden;
+    &:hover {
+      cursor: pointer;
+    }
+    &.openThePopout {
+      max-height: 1000px;
+    }
   }
 
   p {
