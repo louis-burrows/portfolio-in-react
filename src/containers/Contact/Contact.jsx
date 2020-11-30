@@ -10,7 +10,7 @@ class Contact extends Component {
 
         <h2 className={styles.contactTitle}>Contact Information</h2>
 
-        <a href="mailto:louisburrows@gmail.com" className={styles.contactLink}><FontAwesomeIcon icon="envelope" className={styles.iconContact}/></a>
+        <a href="mailto:louisburrows123@outlook.com" className={styles.contactLink}><FontAwesomeIcon icon="envelope" className={styles.iconContact}/></a>
         
 
         <a href="https://www.linkedin.com/in/louis-burrows-100727170/" target="_blank" rel="noopener noreferrer" className={styles.contactLink}><FontAwesomeIcon icon={['fab', 'linkedin']} className={styles.iconContact}/></a>

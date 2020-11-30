@@ -50,7 +50,54 @@
         }
       }
   }
-  
+
+  .arrowSlideAcross1 {
+    color: white;
+    font-size: 26px;
+    position: absolute;
+    right: 15px;
+    animation: arrowTurnsUp 6s ease forwards;
+  }
+
+  .arrowSlideAcross2 {
+    color: white;
+    font-size: 26px;
+    position: absolute;
+    right: 52px;
+    animation: arrowTurnsUp 6s ease forwards;
+  }
+
+  .arrowSlideAcross3 {
+    color: white;
+    font-size: 26px;
+    position: absolute;
+    right: 89px;
+    animation: arrowTurnsUp 6s ease forwards;
+  }
+
+  .arrowSlideAcross4 {
+    color: white;
+    font-size: 26px;
+    position: absolute;
+    right: 126px;
+    animation: arrowTurnsUp 6s ease forwards;
+  }
+
+  @keyframes arrowTurnsUp {
+    0% { 
+    }
+    50% {
+      transform: rotate(0deg);
+      transform: translate(0px,0px);
+    }
+    85% {
+      transform: rotate(-90deg);
+    }
+    100% {
+      transform: rotate(-90deg) translate(80px, 0px);
+    }
+  }
+   
 
   .plant1 {
     display: none;

@@ -10,21 +10,26 @@
     div {
       .interestParagraph {
         border-radius: 7px;
-        color: rgb(121, 121, 121);
+        color: rgb(110, 110, 110);
         font-size: 16px;
-        max-width: 80%;
+        max-width: 90%;
       }
     }
   }
-
+  
+  .transparentBox {
+    min-width: 100px;
+    min-height: 20px;
+  }
+  
   .popOut {
     font-size: 24px;
     border-radius: 7px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     padding: 10px;
     width: 88%;
     background-color: rgba(255, 255, 255, 0.3);
-    max-height: 36px;
+    max-height: 34px;
     overflow: hidden;
     &:hover {
       cursor: pointer;
@@ -53,7 +58,7 @@
     vertical-align: bottom;
     max-width: 350px;
     overflow: hidden;
-    animation: slow 2.5s ease forwards;
+    animation: slow 1.5s ease forwards;
     margin-bottom: 0px;
   }
 
@@ -63,7 +68,7 @@
     vertical-align: bottom;
     max-width: 350px;
     overflow: hidden;
-    animation: slow2 5s ease forwards;
+    animation: slow2 3s ease forwards;
     margin-bottom: 0px;
   }
 
@@ -73,7 +78,7 @@
     vertical-align: bottom;
     max-width: 350px;
     overflow: hidden;
-    animation: slow3 7.5s ease forwards;
+    animation: slow3 4.5s ease forwards;
   }
   
   @keyframes slow {
