@@ -49,7 +49,7 @@ class Home extends Component {
           </button> */}
         </Fade>
 
-        <Slide triggerOnce delay={1000} duration={3000}>
+        <Slide triggerOnce delay={1000} duration={2000}>
          <Fade delay={1000} duration={1200} className={styles.fades}> 
             <div className={styles.arrowSlideAcross1}>
               <FontAwesomeIcon icon={['fas', 'angle-double-right']}/>
@@ -57,35 +57,24 @@ class Home extends Component {
           </Fade>
         </Slide>
 
-        <Slide triggerOnce delay={800} duration={3000}>
-         <Fade delay={2700} duration={500} className={styles.fades}> 
+         <Fade delay={2600} duration={500} className={styles.fades}> 
             <div className={styles.arrowSlideAcross2}>
               <FontAwesomeIcon icon={['fas', 'angle-double-right']}/>
             </div>
           </Fade>
-        </Slide>
-
-        <Slide triggerOnce delay={600} duration={3000}>
-         <Fade delay={2450} duration={500} className={styles.fades}> 
+        
+         <Fade delay={2500} duration={500} className={styles.fades}> 
             <div className={styles.arrowSlideAcross3}>
               <FontAwesomeIcon icon={['fas', 'angle-double-right']}/>
             </div>
           </Fade>
-        </Slide>
-
-        <Slide triggerOnce delay={400} duration={3000}>
-         <Fade delay={2200} duration={500} className={styles.fades}> 
+        
+         <Fade delay={2400} duration={500} className={styles.fades}> 
             <div className={styles.arrowSlideAcross4}>
               <FontAwesomeIcon icon={['fas', 'angle-double-right']}/>
             </div>
           </Fade>
-        </Slide>
-
         
-
-
-
-
 
          {/* <Slide triggerOnce delay={1000} duration={2000} className={`${showImage1} ${styles.plant1}`}>
           <img src={image1} alt="1" className={styles.image1}/>

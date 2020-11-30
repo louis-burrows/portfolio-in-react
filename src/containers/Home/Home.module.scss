@@ -56,7 +56,7 @@
     font-size: 26px;
     position: absolute;
     right: 15px;
-    animation: arrowTurnsUp 6s ease forwards;
+    animation: arrowTurnsUp 5s ease forwards;
   }
 
   .arrowSlideAcross2 {
@@ -64,7 +64,7 @@
     font-size: 26px;
     position: absolute;
     right: 52px;
-    animation: arrowTurnsUp 6s ease forwards;
+    animation: arrowTurnsUp 5s ease forwards;
   }
 
   .arrowSlideAcross3 {
@@ -72,7 +72,7 @@
     font-size: 26px;
     position: absolute;
     right: 89px;
-    animation: arrowTurnsUp 6s ease forwards;
+    animation: arrowTurnsUp 5s ease forwards;
   }
 
   .arrowSlideAcross4 {
@@ -80,7 +80,7 @@
     font-size: 26px;
     position: absolute;
     right: 126px;
-    animation: arrowTurnsUp 6s ease forwards;
+    animation: arrowTurnsUp 5s ease forwards;
   }
 
   @keyframes arrowTurnsUp {
@@ -94,7 +94,7 @@
       transform: rotate(-90deg);
     }
     100% {
-      transform: rotate(-90deg) translate(80px, 0px);
+      transform: rotate(-90deg) translate(95px, 0px);
     }
   }
    
