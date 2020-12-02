@@ -66,7 +66,7 @@
     font-size: 26px;
     position: absolute;
     right: 15px;
-    animation: arrowTurnsUp 5s ease forwards;
+    animation: arrowTurnsUp 5s ease forwards; 
   }
 
   .arrowSlideAcross2 {
@@ -75,7 +75,7 @@
     position: absolute;
     right: 52px;
     animation: arrowTurnsUp 5s ease forwards;
-  }
+ }
 
   .arrowSlideAcross3 {
     color: white;
@@ -91,15 +91,6 @@
     position: absolute;
     right: 126px;
     animation: arrowTurnsUp 5s ease forwards;
-  }
-
-  .arrowSlideDown1 {
-    color: white;
-    font-size: 26px;
-    position: absolute;
-    right: 13px;
-    top: 135px;
-    animation: arrowTurnsDown 6s ease forwards;
   }
 
   @keyframes arrowTurnsUp {
@@ -118,35 +109,51 @@
       opacity: 0;
     }
   }
-
-  @keyframes arrowTurnsDown {
-    0% { 
-    }
-    40% {  
-      transform: rotate(0deg);
-      transform: translate(0px,0px);
-    }
-    70% {
-      transform: rotate(-270deg);
-      opacity: 1;  
-    }
-    100% {
-      transform: rotate(-270deg) translate(300px, 0px);
-      opacity: 0;
+   
+  .sunbeamContainer{
+    position: fixed;
+    bottom: -60px;
+    right: -47px;
+    z-index: 0;
+    overflow: hidden;
+    .sunbeams {
+      animation: sunbeams 7s ease forwards;
+      width: 100%; 
     }
   }
-   
+  
+  @keyframes sunbeams{
+    0% {
+      opacity: 0;
+    }
+    60%{
+      opacity: 0;
+    }
+    80% {
+      transform: scale(1);
+      opacity: 0.1;
+    }
+    90% {
+      transform: scale(1.05);
+      opacity: 0.3;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 0.07;
+    }
+  }
 
   .pictureOfLouis {
     display: none;
   }
   .slide1 {
     display: inline;
-    bottom: 5px;
-    right: 10px;
+    bottom: -5px;
+    right: 0px;
     position: fixed;
     z-index: 1;
     animation: louisShow 2.5s ease forwards;
+    overflow: hidden;
   }
   .image1 {      
     height: 250px;
@@ -167,41 +174,13 @@
 
 
 @media only screen and (min-width: 767px) {
-  
   .homeContainer{
-    
     .fades {
-
        .homeTitle {
       font-size: 55px;
       }
-    
     }
-   
-
-  //   .slide1 {
-  //     left: -150px;
-  //     .image1 {
-  //       min-height: 480px;
-  //     }
-  // }
-
-  //   .slide2 {
-  //     bottom: 120px;
-  //     .image2 {
-  //       min-height: 460px;
-  //     }
-  //   }
-
-    // .slide3 {
-    //   bottom: -10px;
-    //   .image3 {
-    //     min-height: 460px;
-    //   }
-    // }
-
   }
-  
 }
 
 @media only screen and (min-width: 1290px) {
@@ -213,27 +192,6 @@
       font-size: 55px;
       }
     }
-   
-    // .slide1 {
-    //   left: -150px;
-    //   .image1 {
-    //     min-height: 500px;
-    //   }
-    // }
-
-    // .slide2 {
-    //   bottom: 200px;
-    //   .image2 {
-    //     min-height: 520px;
-    //   }
-    // }
-
-    // .slide3 {
-    //   bottom: -10px;
-    //   .image3 {
-    //     min-height: 560px;
-    //   }
-    // }
   }
 }
 

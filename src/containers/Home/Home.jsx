@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
 import styles from "./Home.module.scss"
-import image1 from "../../images/1.png"
+import image1 from "../../images/image1.png"
+import sunbeams from "../../images/sunbeams.png"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -61,33 +62,18 @@ class Home extends Component {
           </div>
         </Fade>
 
-        <Fade delay={2700} duration={500} className={styles.fades}> 
-          <div className={styles.arrowSlideDown1}>
-            <FontAwesomeIcon icon={['fas', 'angle-double-right']}/>
-          </div>
-        </Fade>
+        <div className={styles.sunbeamContainer}>
+        <img src={sunbeams} alt="1" className={styles.sunbeams}/>
+        </div>
 
         <Fade delay={4500} duration={2000} className={styles.fades}>
           <button className={`${styles.growButton} ${flipStyles}`} onClick={() => this.expandCircle()}>
           </button>
         </Fade>
-
-
-        
         
         <Fade triggerOnce delay={1800} duration={700} className={`${showImage1} ${styles.pictureOfLouis}`}>
           <img src={image1} alt="1" className={styles.image1}/>
         </Fade>
-        
-        
-        {/*
-        <Slide triggerOnce delay={1600} duration={2000} className={`${showImage2} ${styles.plant2}`}>
-          <img src={image2} alt="2" className={styles.image2}/>
-        </Slide>   
-
-        <Slide triggerOnce delay={2200} duration={2000} className={`${showImage3} ${styles.plant3}`}>
-          <img src={image3} alt="3" className={styles.image3}/>
-        </Slide> */}
         
        
       
