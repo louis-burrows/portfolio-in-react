@@ -18,12 +18,33 @@
     padding: 10px;
     margin: auto;
     margin-bottom: 15px;
-    font-size: 18px;
-    font-weight: 700; 
-    color: white; 
-    .arrowIcon {
-      vertical-align: bottom;
-      font-size: 22px;
+    max-height: 26px;
+    overflow: hidden;
+      &:hover {
+        cursor: pointer;
+      }
+      &.openThePopout {
+        animation: increaseBoxHeight 2s ease forwards;
+      }
+    .skillsListTitle {
+      font-size: 18px;
+      font-weight: 700; 
+      color: white;
+      margin-top: 0px;
+      margin-bottom: 20px;
+      .arrowIcon {
+        vertical-align: bottom;
+        font-size: 22px;
+      }
+    }
+  }
+
+  @keyframes increaseBoxHeight {
+    0% {
+      max-height: 34px;
+    }
+    100% {
+      max-height: 600px;
     }
   }
 

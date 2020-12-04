@@ -12,11 +12,17 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class Code extends Component {
   state = { 
-
+    popoutIsOpen: false,
    }
 
+  openPopout = () => {
+    this.setState({ popoutIsOpen: !this.state.popoutIsOpen });
+  };
 
   render() { 
+
+    const changePopout = this.state.popoutIsOpen ? styles.openThePopout : "";
+
     return ( 
       <div className={styles.codeContainer}>
         
@@ -25,7 +31,8 @@ class Code extends Component {
 
         <Slide triggerOnce delay={200} duration={1800}>
 
-          <div className={styles.skillsList}>Skills and Tools <FontAwesomeIcon icon={['fas', 'angle-double-right']} className={styles.arrowIcon}/>
+          <div className={`${styles.skillsList} ${styles.popOut} ${changePopout}`} onClick={() => this.openPopout()}>
+            <h2 className ={styles.skillsListTitle}>Skills and Tools <FontAwesomeIcon icon={['fas', 'angle-double-right']} className={styles.arrowIcon}/></h2>
             <div>
               <SkillsCard />
             </div> 
