@@ -14,17 +14,41 @@ class SkillsCard extends Component {
   render() { 
 
  
-    const {
-     skill,
-    } = this.props.skills;
 
 
     return ( 
-      
-      <div>
-       {skill}
+    <div>
+      <div className={styles.skillOrTool}>
+        Javascript
       </div>
-      
+      <div className={styles.skillOrTool}>
+        SCSS
+      </div>
+      <div className={styles.skillOrTool}>
+        React
+      </div>
+      <div className={styles.skillOrTool}>
+        Node.js
+      </div>
+      <div className={styles.skillOrTool}>
+        Typescript
+      </div>
+      <div className={styles.skillOrTool}>
+        Git and GitHub Flow
+      </div>
+      <div className={styles.skillOrTool}>
+        Firebase
+      </div>
+      <div className={styles.skillOrTool}>
+        Test-Driven Development
+      </div>
+      <div className={styles.skillOrTool}>
+        RESTful APIs
+      </div>
+      <div className={styles.skillOrTool}>
+        Agile working
+      </div>
+    </div>  
 
       
      );

@@ -1,67 +1,13 @@
-.projectCardContainer {
-  border: rgb(255, 235, 235) 3px solid;
-  display: flex;
-  flex-direction: column;
-  background-position: center;
-  max-width: 200px;
-  min-height: 300px;
-  max-height: 300px;
-  border-radius: 10px;
-  padding: 10px;
-  margin: 15px;
-  font-size: 18px;
-  font-weight: 700;
-  position: relative;
-  color: white;
-  
-}
-
-
-
-
-.cardParagraph {
+.skillOrTool {
   color: rgb(47, 49, 180);
-  font-size: 15px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border: rgb(247, 253, 241) 3px solid;
-  border-radius: 5px;
+  font-size: 14px;
+  border: 1px white solid;
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, 0.5);
   padding: 5px;
-  background-color: rgba(255, 255, 255, 0.329);
+  margin-top: 7px;
+  width: 93%;
 }
-
-  .cardLink1 {
-    position: absolute;
-    bottom: 10px;
-    width: 75px;
-    padding: 3px;
-    text-align: center;
-    background-color: rgba(239, 239, 250, 0.493);
-    border: 2px white solid;
-    border-radius: 7px;
-    text-decoration: none;
-    color: rgb(17, 155, 165);
-  }
-
-  .cardLink2 {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    width: 75px;
-    padding: 3px;
-    text-align: center;
-    background-color: rgba(239, 239, 250, 0.493);
-    border: 2px white solid;
-    border-radius: 7px;
-    text-decoration: none;
-    color: rgb(17, 155, 165);
-  }
-
-
-
-
-
-
  
 
   

@@ -4,6 +4,8 @@ import styles from "./Code.module.scss";
 import ProjectCard from "../../Components/ProjectCard";
 import projects from "../../projects";
 
+import SkillsCard from "../../Components/SkillsCard";
+
 import { Slide } from "react-awesome-reveal";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -25,7 +27,7 @@ class Code extends Component {
 
           <div className={styles.skillsList}>Skills and Tools <FontAwesomeIcon icon={['fas', 'angle-double-right']} className={styles.arrowIcon}/>
             <div>
-              
+              <SkillsCard />
             </div> 
           </div>
             
