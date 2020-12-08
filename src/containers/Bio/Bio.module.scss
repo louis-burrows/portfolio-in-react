@@ -1,19 +1,21 @@
 
 
 .bioContainer {
+  padding: 10px;
   
   .bioTitle {
     color: rgb(252, 252, 252);
-    margin-top: 20px;
-    margin-left: 10px;
+    margin-top: 10px;
     font-size: 28px;
   }
   
   .bioParagraphsContainer {
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 7px;
-    margin: 15px;
+    margin: 10px auto;
     padding: 10px;
+    max-width: 650px;
+    
     .bioParagraph {
 
     }
@@ -30,11 +32,12 @@
   }
 
   .popOut {
+    max-width: 650px;
     font-size: 24px;
     border-radius: 7px;
     margin-bottom: 40px;
     padding: 10px;
-    margin: 15px;
+    margin: 20px auto;
     background-color: rgba(255, 255, 255, 0.3);
     max-height: 34px;
     overflow: hidden;
